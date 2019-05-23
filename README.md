@@ -4,6 +4,11 @@
 
 
 **Technologies Used**
-+ 
++ Node JS
++ HTML
++ CSS
++ Bootstrap
 
 
+# Set Up Instruction
++ Download the contents of this repository and extract the files in a suitable location.
