@@ -45,6 +45,8 @@
 # Features of the Web-Application :computer:
 
 + The Application has Registration and a Login Page.
+
+
 + The application has a Dashboard Page to Display all the albums.
 + Each album has its own page where a user can add any number of Photos.
 + The application has a User Profile Page for every user which also facilitates Edit options.
