@@ -26,7 +26,19 @@
 
 + To download all the dependencies execute the command **"npm init"**. After executing just keep pressing "Enter" untill all the dependencies are installed. You should see a window like below after you execute the command.
 
-![alt text](https://github.com/SatyamJindal/MemorEase/blob/master/screenshots/Screenshot%20(29).png "Depedencies")
+
+![alt text](https://github.com/SatyamJindal/MemorEase/blob/master/screenshots/Screenshot%20(30).png "PowerShell")
+
++ After setting up the database and the node JS. The application can be run by executing the command **"node server.js"**.
++ Open your browser and go to **"http://localhost:3000/".**
+
++ After completing all the steps you should see the page below: - 
+
+
+
+
+
+
 
 
 
