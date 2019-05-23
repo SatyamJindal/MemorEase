@@ -34,7 +34,7 @@
 
 + After completing all the steps you should see the page below: - 
 
-
+![alt text](![alt text](https://github.com/SatyamJindal/MemorEase/blob/master/screenshots/memor_ease.PNG "PowerShell") 
 
 
 
