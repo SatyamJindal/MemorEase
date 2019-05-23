@@ -1,6 +1,6 @@
 # Photo-album :sunglasses:
 
-**MemorEase** is a web app which is built using Node js and is used to add memories or pictures encountered in dat to day life.
+**MemorEase** is a web app which is built using Node js and is used to add memories into an album. 
 
 
 **Technologies Used**
@@ -42,7 +42,14 @@
 
 ![](![alt text](https://github.com/SatyamJindal/MemorEase/blob/master/screenshots/memor_ease.PNG "PowerShell")
 
-# Working and features of the Web-Application :computer:
+# Features of the Web-Application :computer:
+
++ The Application has Registration and a Login Page.
++ The application has a Dashboard Page to Display all the albums.
++ Each album has its own page where a user can add any number of Photos.
++ The application has a User Profile Page for every user which also facilitates Edit options.
+
+
 
 
 
