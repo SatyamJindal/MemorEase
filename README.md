@@ -4,7 +4,13 @@
 
 
 **Technologies Used**
-+ Node JS
++ Node JS 
++ Bcryptjs
++ Multer (For Handling Images)
++ Express
++ bcryptjs (For encryting password)
++ Pug
++ Sequelize (For handling databases in an easy way)
 + HTML
 + CSS
 + Bootstrap
