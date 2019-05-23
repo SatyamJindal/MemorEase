@@ -1,0 +1,47 @@
+{
+  "name": "photo-album",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Abhay Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "event-stream": "^3.3.3",
+    "express": "^4.17.0",
+    "express-session": "^1.15.6",
+    "http-errors": "^1.7.0",
+    "mongodb": "^3.1.4",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "mustache": "^3.0.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "path": "^0.12.7",
+    "pg": "^7.7.1",
+    "pug": "^2.0.3",
+    "sequelize": "^4.39.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "description": "Add fetch api to add new file to html\r  Add albums database to store content",
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatyamJindal/Photo-album.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SatyamJindal/Photo-album/issues"
+  },
+  "homepage": "https://github.com/SatyamJindal/Photo-album#readme"
+}

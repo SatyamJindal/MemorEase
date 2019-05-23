@@ -1,0 +1,70 @@
+doctype html
+html(lang='en')
+  head
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='Mark Otto, Jacob Thornton, and Bootstrap contributors')
+    meta(name='generator', content='Jekyll v3.8.5')
+    title Album example · Bootstrap
+
+    // Bootstrap core CSS
+    link(href='vendor/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    style.
+      .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      }
+      @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+      }
+      }
+    // Custom styles for this template
+    link(href='css/album.css', rel='stylesheet')
+
+    script(src="js/addAlbum.js")
+  body
+    header
+      .navbar.navbar-dark.bg-dark.shadow-sm
+        .container.d-flex.justify-content-between
+          a.navbar-brand.d-flex.align-items-center(href='https://getbootstrap.com/docs/4.3/examples/album/#')
+            svg.mr-2(xmlns='http://www.w3.org/2000/svg', width='20', height='20', fill='none', stroke='currentColor', stroke-linecap='round', stroke-linejoin='round', stroke-width='2', aria-hidden='true', viewBox='0 0 24 24', focusable='false')
+              path(d='M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z')
+              circle(cx='12', cy='13', r='4')
+            strong Album
+          a(href='/profile') Profile
+          a(href='/logout') Logout
+
+    main(role='main')
+      section.jumbotron.text-center
+        .container
+          h1.jumbotron-heading Your Album Page
+          p.lead.text-muted
+            | Albums are chapters.They are part of a story. Make sure you have good ones! 
+          p
+            button.btn.btn-primary.my-2(type='button', data-toggle='modal', data-target='#myModal') Add new album
+      #myModal.modal.fade(role='dialog')
+        .modal-dialog
+          // Modal content
+          .modal-content
+            .modal-header
+              h4.modal-title New Album
+              button.close(type='button', data-dismiss='modal') ×
+            .modal-body
+              input#albumName(name="albumName" type="text" placeholder="Enter your album name")
+              br
+              textarea#albumDesc(name="albumDesc", cols="30", rows="5" placeholder="Enter description")
+              br
+              input(type="submit" value="Add new album" onclick = "addAlbum()")
+            .modal-footer
+              button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+      .album.py-5.bg-light
+        .container
+          .row#albumData
+    script(src='vendor/bootstrap/jquery/jquery.min.js')
+    script(src='vendor/bootstrap/js/bootstrap.bundle.min.js')
