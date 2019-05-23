@@ -26,6 +26,7 @@
 
 + Set the **Database Name** as :  **photo_album**
 + Set the **Database Password** as: **satyam**
++ Execute Query: - **use photo_album**
 + Open the folder where you extracted the files and open up a power shell window there. The PowerShell Window can be open inside the folder as shown below: - 
 
 ![](https://github.com/SatyamJindal/MemorEase/blob/master/screenshots/Screenshot%20(28).png "PowerShell")
