@@ -31,6 +31,7 @@
 ![](https://github.com/SatyamJindal/MemorEase/blob/master/screenshots/Screenshot%20(28).png "PowerShell")
 
 + To download all the dependencies execute the command **"npm init"**. After executing just keep pressing "Enter" untill all the dependencies are installed. You should see a window like below after you execute the command.
++ Next execute **"npm install express"**
 
 
 ![](https://github.com/SatyamJindal/MemorEase/blob/master/screenshots/Screenshot%20(30).png "PowerShell")
