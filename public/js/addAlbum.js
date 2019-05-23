@@ -47,9 +47,9 @@ const getData = async (url= "") => {
         div4.classList.add("justify-content-between");
         div4.classList.add("align-items-center");
         div5.classList.add("btn-group");
-        button1.classList.add("btn");
-        button1.classList.add("btn-outline-secondary");
-        button1.classList.add("btn-sm");
+        //button1.classList.add("btn");
+        //button1.classList.add("btn-outline-secondary");
+        //button1.classList.add("btn-sm");
         button2.classList.add("btn");
         button2.classList.add("btn-outline-secondary");
         button2.classList.add("btn-sm");
@@ -61,7 +61,7 @@ const getData = async (url= "") => {
         p1.innerHTML = `${row.album_name}`;
         p2.innerHTML = `${row.album_desc}`;
         appendElement(button2, a1);
-        appendElement(div5, button1);
+        //appendElement(div5, button1);
         appendElement(div5, button2);
         appendElement(div4, div5);
         appendElement(div4, small);
