@@ -8,7 +8,6 @@ const path = require("path");
 const bcrypt = require('bcryptjs');
 const multer = require('multer');
 const ejs = require('ejs');
-// const mysql = require('mysql')
 
 
 //Set storage Engine
@@ -92,9 +91,6 @@ app.use(session({
 app.post('/upload', (req,res) =>{
   
   upload(req,res,(err) => {
-    // console.log(req.file);
-    // console.log(req.body.name);
-    // console.log(req.body.desc);
     Photo.create({
       photo_name: req.body.name,
       photo_desc: req.body.desc,
