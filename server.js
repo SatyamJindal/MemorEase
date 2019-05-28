@@ -62,7 +62,7 @@ const Photo = db.Photo;
 const app = express();
 
 // Set view engine as pug
-app.set("view engine", "pug");
+app.set("view engine", "pug");                               // Template Engine
 app.set("views", path.join(__dirname, "public/views"));
 
 
