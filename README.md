@@ -42,7 +42,7 @@
 
 + After completing all the steps you should see the page below: - 
 
-![](https://github.com/SatyamJindal/MemorEase/blob/master/screenshots/memor_ease.PNG "PowerShell")
+![](https://github.com/SatyamJindal/MemorEase/blob/master/screenshots/memor_ease.PNG "Front Page")
 
 # Features of the Web-Application :computer:
 
