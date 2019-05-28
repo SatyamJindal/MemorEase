@@ -3,10 +3,10 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
-const logger = require('morgan');
+const logger = require('morgan');                        //Used for logging
 const path = require("path");
 const bcrypt = require('bcryptjs');
-const multer = require('multer');
+const multer = require('multer');                        //Handling multipart/form data
 const ejs = require('ejs');
 
 
@@ -48,9 +48,9 @@ function checkFileType(file, cb){
 
 
 // Template modules
-const mustache = require('mustache');
-const fs = require('fs');
-// const pug = require("pug");
+const mustache = require('mustache');                        // Logic Less Template
+const fs = require('fs');                                    // File Systems
+
 
 // Database modules
 const db = require('./user');
